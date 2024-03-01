@@ -11,7 +11,7 @@ const NavBar = () => {
         setOpenMenu(!openMenu);
     };
 
-    // Remplacement de '}' à la fin du bloc NavBar
+    
     return (
         <>
             <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
